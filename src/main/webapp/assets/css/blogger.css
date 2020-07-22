@@ -1,0 +1,530 @@
+html body {
+    font-family: 'Audiowide', cursive;
+    height: 100%;
+    background-color: #f8f8f5;
+}
+
+.container-login {
+    height: 100%;
+    align-content: center;
+}
+
+.bk-color, .card-header, .card-footer, .card-body {
+    background-color: rgb(252, 238, 9) !important;
+}
+
+.btn {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.btn-primary {
+    background-color: rgb(252, 238, 9) !important;
+    border: 0;
+    color: black;
+!important;
+}
+
+.btn-outline-primary {
+    background-color: transparent !important;
+    border: 2px solid black !important;
+}
+
+.btn:hover, .btn:active, .btn:focus,
+.general-box-shadow-effect {
+    border: 0;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.modal-body, .card-body, .ck-content {
+    font-family: 'Roboto', cursive !important;
+}
+
+.card {
+    /*height: 370px;*/
+    margin-top: 10%;
+    margin-bottom: auto;
+}
+
+.cyber-form {
+    border: 2px solid #000000;
+    border-radius: 8px 0 8px 0;
+}
+
+#social-login .google-btn {
+    background-color: #DF4B3B;
+}
+
+#social-login .social-btn {
+    font-weight: 100;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn {
+    color: black;
+    background-color: white;
+    width: 100px;
+}
+
+.login_btn:hover {
+    -webkit-box-shadow: 0 0 3px 3px rgba(66, 133, 244, .3);
+    box-shadow: 0 0 3px 3px rgba(66, 133, 244, .3);
+}
+
+.loading {
+    height: 80px;
+    width: 80px;
+    background: url('../images/pic0.png') no-repeat center;
+    opacity: 0.7;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -40px;
+    margin-top: -40px;
+    z-index: 1001;
+    background-color: #dad8d8;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+
+.blog-post-content figure img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#navBar {
+    background-color: white;
+    border-bottom: 2px black;
+    border-style: solid;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: white;
+    padding: 0 0 0 0;
+}
+
+.cyberBloggerButtonLabel {
+    font-size: 28px;
+    font-family: Audiowide, fantasy;
+    color: #ff3399;
+}
+
+.navButtons a {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: Audiowide, fantasy;
+    color: #ff3399;
+}
+
+.myself {
+}
+
+.myself p {
+    margin-left: 47%;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Audiowide', cursive;
+    line-height: 70px;
+    margin-top: 10%;
+}
+
+.Subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 2px solid black;
+    padding-top: 5%;
+}
+
+.more {
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.allFollow p {
+    margin-left: 1%;
+}
+
+.followDetails {
+    float: left;
+    margin-left: -1%;
+}
+
+.followDetails p {
+    margin-left: 11%;
+}
+
+.followDetails img {
+    width: 49%;
+}
+
+.lastFollowDetails img {
+    width: 20%;
+}
+
+.lastFollowDetails p {
+    margin-left: 83%;
+}
+
+.followTitle {
+    font-size: 20px;
+    margin: 8% 0;
+    font-family: 'Audiowide', cursive;
+}
+
+.follow_link {
+    font-family: 'Roboto', cursive;
+}
+
+#abstract {
+    font-family: 'Roboto', cursive;
+    font-size: 18px;
+}
+
+#subtitleFirst {
+    margin-top: 0;
+}
+
+.title_in_mainpage {
+    text-decoration: none;
+    color: black;
+}
+
+#mostwatchborder {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 20%;
+    margin-left: 4%;
+}
+
+.row {
+    padding-top: 5%;
+}
+
+.mainInf {
+    margin: 0 auto;
+}
+
+.container {
+    background-color: white;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.wholePage {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f5;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.img-authorhead {
+    width: 48px;
+    height: 48px;
+    border-radius: 30px;
+}
+
+.blog-post-title {
+    font-size: 28px;
+    font-family: 'Audiowide', cursive;
+}
+
+.blog-post-content {
+    font-family: 'Roboto', cursive;
+    font-size: 18px;
+}
+
+.the_l_between {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#mostwatched {
+    font-family: 'Audiowide', cursive;
+    font-size: 20px;
+    margin-top: 8%;
+}
+
+span.san {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-color: transparent transparent transparent #000000;
+}
+
+#hr-of-mostwatch {
+    border-top: 2px solid black;
+    margin-right: 20%;
+    margin-bottom: 10px;
+}
+
+a.mosttop5 {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', cursive;
+}
+
+li.mostwatch_li {
+    margin-bottom: 5%;
+    width: available;
+
+}
+
+.author, .date {
+    font-size: 14px;
+    font-family: 'Audiowide', cursive;
+}
+
+.date {
+    font-style: italic;
+}
+
+ul.decimal {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.my-4 {
+    border-top: 2px solid deeppink;
+}
+
+#background {
+    background-color: #f8f8f5;
+}
+
+.postType {
+    margin-top: 5%;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.label {
+    margin-right: 6%;
+    background-color: #f8f8f5;
+}
+
+.button-bar a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.comment_button a {
+    font-family: 'Audiowide', cursive;
+    color: black;
+    margin-left: 1%;
+    font-size: 14px;
+}
+
+.report_button a {
+    margin-left: 2%;
+    font-family: 'Audiowide', cursive;
+    color: black;
+    font-size: 14px;
+}
+
+.write_comment {
+    margin-top: 3%;
+}
+
+.content {
+    height: 1500px;
+    margin-top: 4%;
+}
+
+.myself img {
+    width: 22%;
+    float: left;
+    margin-left: 5%;
+}
+
+#myName {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Audiowide', cursive;
+    padding-top: 7%;
+}
+
+.Articles p {
+    margin-top: 5%;
+    font-family: 'Roboto', cursive;
+}
+
+.col {
+    height: 500px;
+    top: 10%;
+}
+
+.rightMyself img {
+    width: 45%;
+    float: left;
+    margin-top: 2%;
+    margin-left: -4%;
+    border-radius: 15px;
+}
+
+.rightName {
+    font-family: 'Audiowide', cursive;
+}
+
+.rightMyself p {
+    margin-left: 50%;
+    font-size: 18px;
+    line-height: 122px;
+    font-family: 'Audiowide', cursive;
+}
+
+#personalDetails p {
+    font-size: 16px;
+    line-height: 38px;
+    font-family: 'Roboto', cursive;
+    margin-bottom: 0;
+}
+
+.head {
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    margin-top: -5%;
+    font-family: 'Audiowide', cursive;
+    padding-bottom: 10px;
+}
+
+.personalInf, .follow {
+    height: 400px;
+    margin-top: 24%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.personalDetails {
+    font-family: 'Roboto', cursive;
+    padding-top: 3%;
+    margin-top: 6%;
+}
+
+.followers {
+    margin-top: 10%;
+    margin-left: 5%;
+    float: left;
+}
+
+.followers img {
+    margin-right: 3%;
+    margin-top: 5%;
+    width: 68px;
+}
+
+.followers p {
+    text-align: center;
+}
+
+.oneFollower {
+    float: left;
+    margin-right: 3%;
+}
+
+#hrefOfFollowing {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: 'Audiowide', cursive;
+    font-size: 18px;
+}
+
+.comment_author {
+    margin-right: 1%;
+    font-family: 'Roboto', cursive;
+}
+
+.comment_date {
+    font-style: italic;
+    font-size: 10px;
+}
+
+.comment_content {
+    font-family: 'Roboto', cursive;
+    font-size: 16px;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.card-body {
+    padding: 1% !important;
+}
+
+.follow_comment {
+    margin-left: 1%;
+}
+
+.follow_follow_comment {
+    margin-left: 5%;
+}
+
+.my-3 {
+    border-top: 1px solid #000000;
+}
+
+.show_more_comment {
+    font-size: 16px;
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.title h3 {
+    font-family: 'Audiowide', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.buttons {
+    text-align: right;
+}
+
+@media screen and (max-width: 1080px) {
+    .col{
+        display: none;
+    }
+}
+@media screen and (max-width: 900px) {
+    .col{
+        display: none;
+    }
+    .col-md-3{
+        display: none;
+    }
+    #background{
+        background-color: white;
+    }
+}
+
+.reply-area {
+  padding: 0.5rem 1rem 0 1rem;
+  margin-top: 1rem;
+  background-color: #f7f7f9;
+}
+
+
